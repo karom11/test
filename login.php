@@ -31,7 +31,7 @@ $result = $conn->query($sql);
 if ($result->num_rows >0) {
   // output data of each row
  
-  header("Location: ll.html");
+  header("Location: home.html");
 
 } else {
   echo " GG ";
